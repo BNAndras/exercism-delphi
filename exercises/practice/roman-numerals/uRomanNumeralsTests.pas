@@ -54,11 +54,11 @@ type
 
     [Test]
     [Ignore]
-    procedure Fourty_eight_is_not_50_minus_2_but_rather_40_plus_8;
+    procedure Forty_eight_is_not_50_minus_2_but_rather_40_plus_8;
 
     [Test]
     [Ignore]
-    procedure Fourty_nine_is_not_40_plus_5_plus_4_but_rather_50_minus_10_plus_10_minus_1;
+    procedure Forty_nine_is_not_40_plus_5_plus_4_but_rather_50_minus_10_plus_10_minus_1;
 
     [Test]
     [Ignore]
@@ -70,7 +70,7 @@ type
 
     [Test]
     [Ignore]
-    procedure Sixety_being_50_plus_10_is_LX;
+    procedure Sixty_being_50_plus_10_is_LX;
 
     [Test]
     [Ignore]
@@ -230,14 +230,14 @@ begin
   Assert.AreEqual('XXVII', arabicNumeral.ToRoman);
 end;
 
-procedure RomanNumeralsTest.Fourty_eight_is_not_50_minus_2_but_rather_40_plus_8;
+procedure RomanNumeralsTest.Forty_eight_is_not_50_minus_2_but_rather_40_plus_8;
 var arabicNumeral: integer;
 begin
   arabicNumeral := 48;
   Assert.AreEqual('XLVIII', arabicNumeral.ToRoman);
 end;
 
-procedure RomanNumeralsTest.Fourty_nine_is_not_40_plus_5_plus_4_but_rather_50_minus_10_plus_10_minus_1;
+procedure RomanNumeralsTest.Forty_nine_is_not_40_plus_5_plus_4_but_rather_50_minus_10_plus_10_minus_1;
 var arabicNumeral: integer;
 begin
   arabicNumeral := 49;
@@ -258,7 +258,7 @@ begin
   Assert.AreEqual('LIX', arabicNumeral.ToRoman);
 end;
 
-procedure RomanNumeralsTest.Sixety_being_50_plus_10_is_LX;
+procedure RomanNumeralsTest.Sixty_being_50_plus_10_is_LX;
 var arabicNumeral: integer;
 begin
   arabicNumeral := 60;
